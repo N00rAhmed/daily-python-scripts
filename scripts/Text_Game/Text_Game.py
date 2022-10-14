@@ -184,8 +184,8 @@ def level2():
     ´´´´´¶¶¶¶¶¶¶¶¶¶¶¶´
     ´´´´´´´¶¶¶¶¶¶¶¶
     """)
-#     question_one = ''
-    # while question_one != 'run away' and question_one != 'shoot robot in head':
+
+
     items = ''
     while items != 'tank' and items != 'bomb' and items != 'mech suit':
         items = input("which item do you choose - the mech suit, tank or bomb : ")
@@ -216,8 +216,7 @@ def level2():
             time.sleep(3)
             print('this suit is highly advanced and gives you a ton of diffrent options')
             suit_options()
-#     question_one = ''
-    # while question_one != 'run away' and question_one != 'shoot robot in head':
+
 def combat_option():
     combat_moves = ''
     while combat_moves != 'right hook' and combat_moves != 'head butt':
@@ -286,8 +285,6 @@ def level3():
     """)
     time.sleep(3)
     print('there is a video recording on it')
-#     question_one = ''
-    # while question_one != 'run away' and question_one != 'shoot robot in head':
     message = ''
     while message != 'yes' and message != 'no':
         message = input('Do you want to play the recording: ')
