@@ -6,12 +6,12 @@ Enjoy and have fun !!!
 
 Installation:
 
-mathod 1 - <br />
+Method 1 - <br />
 Download the file Text_Game.py which is inside text_game folder <br />
 Click on terminal and New terminal<br />
 Run game by clicking run button
 
-method 2 - <br />
+Method 2 - <br />
 Download the file Text_Game.py which is inside text_game folder <br />
 Double Click on downloded file andit will run the game <br />
 
