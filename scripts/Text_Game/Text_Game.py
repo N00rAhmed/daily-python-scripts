@@ -241,20 +241,7 @@ def suit_options():
                 time.sleep(3)
                 print('good the cyborg is extremely disorientated')
                 combat_option()
-                # def combat_option():
-                #     combat_moves = ''
-                #     while combat_moves != 'right hook' and combat_moves != 'head butt':
-                #         time.sleep(3)
-                #         combat_moves = input("do you want to throw a right hook or head butt: ")
-                #         if (combat_moves == 'right hook'):
-                #             time.sleep(3)
-                #             print('wow your right hook to the cyborg was so DEVASTATING that it has killed him')
-                #             level3()
-                #         elif (combat_moves == 'head butt'):
-                #             time.sleep(3)
-                #             print('incredible your head butt has KNOCKED OUT the cyborg')
-                #             level3()
-
+                
             elif (select_option == 'missile'):
                 time.sleep(3)
                 print('oh no the cyborg is made from vibranium')
@@ -344,8 +331,8 @@ while play_again == "yes" or play_again == "y":
     path()
     again = choice()
     random_select(again)
-    time.sleep(1)
 
+    time.sleep(3)
     play_again = input("""Do you want to play again? 
     Type yes or y to play again and no or n if you want to stop: """)
 
